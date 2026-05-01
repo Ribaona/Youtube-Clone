@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+
+    .categories {
+        width: 160px;
+    }
+
+    .videos {
+        width: calc(100vw - 160px);
+    }
+
+     .video-grid .video {
+        width: calc(50% - 12px);
+    }
+
+    .search {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .categories {
+        display: none;
+    }
+
+    .videos {
+        width: 100vw;
+    }
+
+    .video-grid .video {
+        width: calc(50% - 12px);
+    }
+
+    .search {
+        width: 200px;
+    }
+    .navbar {
+        padding: 0 8px;
+    }
+}
